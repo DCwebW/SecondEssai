@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<!-- Encodage qui sert à ce que le langage html traduise tous nos caractères correctement , surtout pour nous Français-->
+<script type="text/javascript" src="Exercice TP n°1 (Exercice 5 fonctions).js"></script>
+<link href="Exercice TP n°1 (Exercice 5 css).css" rel="stylesheet">
+
+<head>
+</head>
+
+<body>
+    <h1> Ebauche d'un Formulaire </h1>
+    <h2> Formulaire Court.app</h2>
+    <h3><i><mark> page est une page de test pour un lien interne</mark></i></h3>
+    <p>Ceci représente le commencement d'un 
+        formulaire visant à récolter des informations 
+        pour un <strong> projet professionnel à
+        venir</strong></p>
+        <p><mark> Si possible à présenter devant le jury</mark></p>
+        <p>Les thèmes centraux s'affichent comme ceci </p>
+    <ol type="I">
+        <li>Passion autour du basket</li>
+        <li>Interactivité autour d'un média ou réseau social</li>
+        <li>Outil pour un passionné de basket</li>
+        <li>Outil adapté pour les joueurs occasionnels ou souhaitant se perfectionner</li>
+    </ol>
+    <dl>
+        <dt>Basket</dt>
+        <dd>Sport qui se joue avec un ballon et un anneau auquel est accroché un filet , l'anneau est fixé sur
+            une structure qui le place à une certaine hauteur 
+        </dd>
+    </dl>
+    <p>Voici une définition par Wikipédia avec le lien qui suit  <a href="https://fr.wikipedia.org/wiki/Basket-ball"> ici</a></p>
+    
+</body>
+<form method="get" id=Formulaire1>
+    <br> <input placeholder="10" value="10"> </input></br>
+    <br><button formaction="Exercice TP n°1 (Exercice 5 page annexe).html" type="submit">Soumettre</button><br>
+</form>
+<hr>
+<form id=Formulaire2>
+    <!--boutons pour choix multiples -->
+    <br> <input name="choix" type="radio"> 1</input></br>
+    <br><input name="choix" type="radio"> 2</input></br>
+    <br><input name="choix" type="radio"> 3</input></br>
+    <br><input name="choix" type="radio"> 4</input></br>
+    <br><input name="choix" type="radio"> 5</input></br>
+    <br><input name="choix" type="radio"> 6</input></br>
+    <br><input name="choix" type="radio"> 7</input></br>
+    <br><input name="choix" type="radio"> 8</input></br>
+    <br><input name="choix" type="radio"> 9</input></br>
+    <br><input name="choix" type="radio" checked> 10</input></br>
+    <br><button formaction="Exercice TP n°1 (Exercice 5 page annexe).html" type="submit">Soumettre</button><br>
+</form>
+<hr>
+<form id=Formulaire3>
+    <br><select><!-- menu optionnel allant de 1 à 10-->
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10" selected>10</option>
+    </select></br>
+    <br><button formaction="Exercice TP n°1 (Exercice 5 page annexe).html" type="submit">Soumettre</button><br>
+</form>
+ <script>
+    Form1()
+
+    </script>
+
+</html>
